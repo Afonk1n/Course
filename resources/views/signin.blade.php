@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title')Главная@endsection
+@section('title')Вход@endsection
 
 @section('main_content')
     <form class="form-signin">
