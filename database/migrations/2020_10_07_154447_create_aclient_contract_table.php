@@ -14,7 +14,7 @@ class CreateAclientContractTable extends Migration
     public function up()
     {
         Schema::create('aclient_contract', function (Blueprint $table) {
-            $table->integer('cclient_id');
+            $table->integer('aclient_id');
             $table->integer('contract_id');
             $table->foreignId('aclient_id')->constrained('aclients')->onDelete('restrict')->onUpdate('cascade');
             $table->foreignId('contract_id')->constrained('contracts')->onDelete('restrict')->onUpdate('cascade');
