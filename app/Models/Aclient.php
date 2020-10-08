@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Aclient extends Model
 {
     use HasFactory;
+
+    public function contracts(){
+        return $this->belongsToMany('App\Models\Contract','aclient_contract','aclient_id','contract_id');
+    }
 }

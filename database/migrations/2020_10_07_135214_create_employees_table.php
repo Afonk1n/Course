@@ -23,6 +23,7 @@ class CreateEmployeesTable extends Migration
             $table->string('gender', 1);
             $table->string('address', 45);
             $table->foreignId('job_id')->constrained('jobs')->onDelete('restrict')->onUpdate('cascade');
+            $table->foreignId('user_id')->constrained('users')->onDelete('restrict')->onUpdate('cascade');
         });
     }
 

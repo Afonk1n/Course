@@ -21,7 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="84307d1a-d81e-45db-ae62-2247ef762453" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Aclient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Aclient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Contract.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Contract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_135214_create_employees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_07_135214_create_employees_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_154107_create_aclients_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_07_154107_create_aclients_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_154447_create_aclient_contract_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_07_154447_create_aclient_contract_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +187,7 @@
       <workItem from="1602074104336" duration="12427000" />
       <workItem from="1602089291480" duration="3028000" />
       <workItem from="1602093639682" duration="188000" />
+      <workItem from="1602171882181" duration="4794000" />
     </task>
     <servers />
   </component>
@@ -204,9 +211,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601232094388" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602088453647">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602176063226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602088453647" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602176063226" />
   </component>
 </project>

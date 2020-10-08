@@ -22,6 +22,7 @@ class CreateAclientsTable extends Migration
             $table->string('phone', 11);
             $table->string('gender', 1);
             $table->string('passport', 100);
+            $table->foreignId('user_id')->constrained('users')->onDelete('restrict')->onUpdate('cascade');
         });
     }
 
