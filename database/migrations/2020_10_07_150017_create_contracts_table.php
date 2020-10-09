@@ -20,7 +20,6 @@ class CreateContractsTable extends Migration
             $table->date('dealdate');
             $table->integer('dealarea');
             $table->foreignId('service_id')->constrained('services')->onDelete('restrict')->onUpdate('cascade');
-            $table->foreignId('employee_id')->constrained('employees')->onDelete('restrict')->onUpdate('cascade');
             $table->foreignId('apartment_id')->constrained('apartments')->onDelete('restrict')->onUpdate('cascade');
             $table->foreignId('status_id')->constrained('statuses')->onDelete('restrict')->onUpdate('cascade');
         });

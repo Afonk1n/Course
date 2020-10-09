@@ -21,9 +21,26 @@
   <component name="ChangeListManager">
     <list default="true" id="84307d1a-d81e-45db-ae62-2247ef762453" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Aclient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Aclient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Aclient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Apartment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Apartment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Bathroom.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Bathroom.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Contract.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Contract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_154447_create_aclient_contract_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_07_154447_create_aclient_contract_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/District.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/District.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Employee.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Job.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Renovation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Renovation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Room.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Room.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Status.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Storeynumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Storeynumber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Street.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Street.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_133854_create_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_135214_create_employees_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_150017_create_contracts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_07_150017_create_contracts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_154107_create_aclients_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_154447_create_aclient_contract_table.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +202,7 @@
       <workItem from="1602093639682" duration="188000" />
       <workItem from="1602171882181" duration="4794000" />
       <workItem from="1602180156063" duration="1991000" />
+      <workItem from="1602252195099" duration="2174000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Street extends Model
 {
-    public $timestamps = false;
     use HasFactory;
+    public $timestamps = false;
 }

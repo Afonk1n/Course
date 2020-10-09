@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAclientsTable extends Migration
+class CreateContractUserTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,8 @@ class CreateAclientsTable extends Migration
      */
     public function up()
     {
-        Schema::create('aclients', function (Blueprint $table) {
-            $table->id();
-            $table->string('surname', 45);
-            $table->string('name', 45);
-            $table->string('patronymic', 45);
-            $table->date('birthdate');
-            $table->string('phone', 11);
-            $table->string('gender', 1);
-            $table->string('passport', 100);
+        Schema::create('contract_user', function (Blueprint $table) {
+            $table->foreignId('contract_id')->constrained('contracts')->onDelete('restrict')->onUpdate('cascade');
             $table->foreignId('user_id')->constrained('users')->onDelete('restrict')->onUpdate('cascade');
         });
     }
@@ -33,6 +26,6 @@ class CreateAclientsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('aclients');
+        Schema::dropIfExists('contract_user');
     }
 }
